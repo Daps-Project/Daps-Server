@@ -1,60 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<questions>
-    <question text="How are you feeling today?">
-        <option text="Happy">
-            <question text="What's your idea of a good time?">
-                <option text="Reading a book"></option>
-                <option text="Watching Shows"></option>
-                <option text="Traveling">
-                    <question text="How do you like to travel?">
-                        <option text="On foot"></option>
-                        <option text="Driving"></option>
-                        <option text="By plane"></option>
-                    </question>
-                </option>
-                <option text="Working">
-                    <question text="I work to...">
-                        <option text="Stack money"></option>
-                        <option text="Buy nice cars"></option>
-                        <option text="Pay bills"></option>
-                    </question>
-                </option>
-            </question>
-        </option>
-        <option text="Sad">
-            <question text="Do you want to be alone?">
-                <option text="Yes">
-                    <question text="Are you creative?">
-                        <option text="Yes">
-                            <question text="Do you like arts and craft?">
-                                <option text="DIY"></option>
-                                <option text="Pottery"></option>
-                                <option text="Listening to music"></option>
-                                <option text="Journal writing"></option>
-                            </question>
-                        </option>
-                        <option text="No">
-                            <question text="Do you like the outdoors">
-                                <option text="Yes">
-                                    <question text="Do you like to...">
-                                        <option text="Hike"></option>
-                                        <option text="Bike"></option>
-                                    </question>
-                                </option>
-                                <option text="No">
-                                    <cycle cycle_to_question="What's your idea of a good time?"></cycle>
-                                </option>
-                            </question>
-                        </option>
-                    </question>
-                </option>
-                <option text="No">
-                    <question text="Do you have friends?"></question>
-                </option>
-            </question>
-        </option>
-        <option text="Meh"></option>
-    </question>
-</questions>
+<question text="How are you feeling today?">
+    <option text="Happy">
+        <question text="What's your idea of a good time?">
+            <option text="Reading a book"></option>
+            <option text="Watching Shows"></option>
+            <option text="Traveling">
+                <question text="How do you like to travel?">
+                    <option text="On foot"></option>
+                    <option text="Driving"></option>
+                    <option text="By plane"></option>
+                </question>
+            </option>
+            <option text="Working">
+                <question text="I work to...">
+                    <option text="Stack money"></option>
+                    <option text="Buy nice cars"></option>
+                    <option text="Pay bills"></option>
+                </question>
+            </option>
+        </question>
+    </option>
+    <option text="Sad">
+        <question text="Do you want to be alone?">
+            <option text="Yes">
+                <question text="Are you creative?">
+                    <option text="Yes">
+                        <question text="Do you like arts and craft?">
+                            <option text="DIY"></option>
+                            <option text="Pottery"></option>
+                            <option text="Listening to music"></option>
+                            <option text="Journal writing"></option>
+                        </question>
+                    </option>
+                    <option text="No">
+                        <question text="Do you like the outdoors">
+                            <option text="Yes">
+                                <question text="Do you like to...">
+                                    <option text="Hike"></option>
+                                    <option text="Bike"></option>
+                                </question>
+                            </option>
+                            <option text="No">
+                                <cycle cycle_to_question="What's your idea of a good time?"></cycle>
+                            </option>
+                        </question>
+                    </option>
+                </question>
+            </option>
+            <option text="No">
+                <question text="Do you have friends?"></question>
+            </option>
+        </question>
+    </option>
+    <option text="Meh"></option>
+</question>
+
 
 
