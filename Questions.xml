@@ -48,11 +48,17 @@
                 </question>
             </option>
             <option text="No">
-                <question text="Do you have friends?"></question>
+                <question text="Do you have friends?">
+                    <option text="Yes"></option>
+                    <option text="No"></option>
+                </question>
             </option>
         </question>
     </option>
-    <option text="Meh"></option>
+    <option text="Meh">
+        <!-- <question text="Just Meh?"></question> -->
+    </option>
+
 </question>
 
 
