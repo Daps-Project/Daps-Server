@@ -42,15 +42,17 @@ def googlePlaces():
         requestJSON = apiRequest.json()
 
         resultDicts = requestJSON['results']
-        place_id = dict()
+        place_id = []
 
         if resultDicts:
             for i in range(len(resultDicts)):
-                place_id = (resultDicts[i]['place_id'])
+                print(resultDicts[i])
+                if resultDicts[i]['business_status'] == "OPERATIONAL":
+                    place_id.append(resultDicts[i]['place_id'])
             print(resultDicts)
-            print(place_id)
+            print(jsonify(place_id))
 
-            return (place_id)
+            return jsonify(place_id)
         else:
             return "No results"
 
